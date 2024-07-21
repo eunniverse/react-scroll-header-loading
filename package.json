@@ -1,0 +1,29 @@
+{
+  "name": "react-scroll-header-loading",
+  "version": "1.0.0",
+  "description": "The loading bar operates at the top through scrolling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunniverse/react-scroll-header-loading.git"
+  },
+  "keywords": [
+    "react",
+    "loading"
+  ],
+  "author": "eunniverse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunniverse/react-scroll-header-loading/issues"
+  },
+  "homepage": "https://github.com/eunniverse/react-scroll-header-loading#readme",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "react": "^18.3.1",
+    "styled-components": "^6.1.12"
+  },
+  "type": "module"
+}
