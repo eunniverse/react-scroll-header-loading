@@ -2,9 +2,10 @@
   "name": "react-scroll-header-loading",
   "version": "1.0.0",
   "description": "The loading bar operates at the top through scrolling.",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,24 @@
     "url": "https://github.com/eunniverse/react-scroll-header-loading/issues"
   },
   "homepage": "https://github.com/eunniverse/react-scroll-header-loading#readme",
-  "dependencies": {
-    "lodash.debounce": "^4.0.8",
-    "react": "^18.3.1",
-    "styled-components": "^6.1.12"
+  "peerDependencies": {
+    "react": "^18.3.1"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-transform-commonjs": "^1.1.6",
+    "lodash.debounce": "^4.0.8",
+    "rollup": "^4.19.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }

@@ -1,3 +1,7 @@
-import ScrollHeaderLoading from './ScrollHeaderLoading.js';
+import {CalculateScroll} from './ScrollHeaderLoading';
+import {ScrollHeaderLoadingBar} from './ScrollHeaderLoading';
 
-export default ScrollHeaderLoading;
+export default {
+    CalculateScroll,
+    ScrollHeaderLoadingBar
+};
