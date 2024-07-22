@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-header-loading",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The loading bar operates at the top through scrolling.",
   "main": "dist/bundle.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "loading"
   ],
   "author": "eunniverse",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/eunniverse/react-scroll-header-loading/issues"
   },

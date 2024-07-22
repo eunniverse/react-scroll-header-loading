@@ -4,7 +4,6 @@ import debounce from 'lodash.debounce';
 // 대문자로 써야함 (React custom hook)
 export const CalculateScroll = () => {
     const [percentage, setPercentage] = useState(0);
-    //const debounce = require('lodash.debounce');
 
     // useLayoutEffect 는 동기적으로, 렌더링 전에 호출이 일어나고 useEffect 는 비동기적으로 렌더링 후에 호출이 일어난다.
     // 렌더링 전에 scroll 이벤트 실행이 필요하여 사용 (즉시 반응이 필요)
