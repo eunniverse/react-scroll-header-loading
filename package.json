@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-header-loading",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The loading bar operates at the top through scrolling.",
   "main": "dist/bundle.js",
   "scripts": {
@@ -32,11 +32,13 @@
     "@babel/preset-react": "^7.24.7",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "babel": "^6.23.0",
     "babel-loader": "^9.1.3",
     "babel-plugin-transform-commonjs": "^1.1.6",
     "lodash.debounce": "^4.0.8",
+    "react-dom": "^18.3.1",
     "rollup": "^4.19.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2"
